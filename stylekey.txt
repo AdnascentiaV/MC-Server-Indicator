@@ -1,0 +1,21 @@
+§ l bold § r
+§ o italics § r
+§ n underline § r 
+§ m strikethrough § r
+§ k Obfuscated
+§ 0 Black 
+§ 1 dark blue 
+§ 2 dark green 
+§ 3 dark aqua 
+§ 4 dark red 
+§ 5 dark purple 
+§ 6 Gold
+§ 7 Grey
+§ 8 Dark Grey
+§ 9 Blue
+§ a Green
+§ b Aqua 
+§ c Red
+§ d Light Purple
+§ e Yellow
+§ f White

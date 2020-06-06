@@ -1,0 +1,167 @@
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/MinecraftRegular-Bmg3.otf);
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/MinecraftBold-nMK1.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/MinecraftItalic-R8Mo.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/MinecraftBoldItalic-1y1e.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+* {
+    font-family: minecraft;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/dirt_bkg.jpg);
+    background-repeat: repeat;
+    background-size: 64px 64px
+}
+
+h1 {
+    text-align: center;
+}
+
+.github {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transition: .2s;
+}
+
+h2 {
+    text-align: center;
+    color: #FF5658;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github:hover{
+        text-shadow: 0px 0px 5px #FF49FB;
+        font-size: 2em;
+        line-height: 300%;
+}
+
+.server-status {
+    text-align: left;
+    display: block;
+    background-size: auto 100%;
+    width: 625px;
+    margin: auto;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 0px;
+    line-height: 10%;
+}
+
+.online {
+    float: right;
+    height: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.favicon {
+    padding-left: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.server-oo {
+    color: #fff;
+    float: left;
+    margin-bottom: 0px;
+    padding: 0;
+    width: 300px;
+}
+
+.playersnow {
+    float: right;
+    color: gray;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.motd {
+    float: left;
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    min-width: 400px;
+}
+
+.version {
+    width: 300px;
+    float: left;
+    color: grey;
+}
+
+.debug {
+    text-align: left;
+    display: block;
+    background-image: url(images/dirt_bkg.png);
+    width: 625px;
+    margin: auto;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 100px;
+    line-height: 10%;
+}
+
+.span {
+    padding: inherit;
+    margin: inherit;
+}
+
+.bold
+{
+    font-weight: normal;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.black {
+    color: black;
+}
+
+.darkblue {
+    color: darkblue;
+}
+
+.darkgreen {
+    color: darkgreen;
+}
+
+.darkaqua {
+    color: darkturquoise;
+}
+
+.darkred {
+    color: darkred;
+}
+

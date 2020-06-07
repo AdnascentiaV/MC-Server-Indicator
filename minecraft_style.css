@@ -38,6 +38,11 @@ h1 {
     text-align: center;
 }
 
+.red {
+    margin-top: 30px;
+    color: #FF5658;
+}
+
 .github {
     width: 200px;
     height: 200px;

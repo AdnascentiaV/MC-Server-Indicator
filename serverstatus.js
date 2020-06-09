@@ -20,8 +20,8 @@ function serverstatus(index, ip, port) {
           motd = motd + upmotd[i];
         }
       }
-
-    //   for (var i = 0; i < upmotd.length; i++)
+      
+      //   for (var i = 0; i < upmotd.length; i++)
     //   {
     //       if (upmotd[i] == '§')
     //       {
@@ -67,11 +67,11 @@ function serverstatus(index, ip, port) {
       
       if (port == 25565)
       {
-        document.querySelector('.server-status-' + index + ' .server-oo').innerHTML = ip
+        document.querySelector('.server-status-' + index + ' .server-oo').innerHTML = ip;
       }
       else
       {
-        document.querySelector('.server-status-' + index + ' .server-oo').innerHTML = ip + ':' + port
+        document.querySelector('.server-status-' + index + ' .server-oo').innerHTML = ip + ':' + port;
       }
     }
     )}
